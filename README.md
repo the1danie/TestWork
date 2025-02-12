@@ -1,51 +1,75 @@
-# React + TypeScript + Vite
+# Test Work for Startup
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Design Reference
 
-Currently, two official plugins are available:
+This project is based on the design from Figma. You can view the original design [here](https://www.figma.com/design/speLXZuFiTWNAjMi8J5Wd9/Refactoring---Scano-(Copy)?node-id=22-470&t=R6Tm4QZgN9kEjUp6-0).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Preview
 
-## Expanding the ESLint configuration
+You can view the live version of this project hosted on Vercel by clicking the link below:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[**Test Work on Vercel**](https://test-work-pi-taupe.vercel.app/)
 
-- Configure the top-level `parserOptions` property like this:
+## Description
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+This is a test project designed for a startup to showcase the front-end design using React, integrating modern UI/UX components and ensuring responsiveness across devices.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Key Features:
+- **Responsive Design**: Optimized for all screen sizes, from mobile phones to desktops.
+- **Figma-Based Layout**: The layout and style have been directly inspired by the Figma design provided.
+- **Smooth Interactivity**: Features like buttons, forms, and inputs are designed to be intuitive and accessible.
+- **Performance Optimized**: The app is designed with performance in mind, using efficient React components.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Technologies Used:
+- **React**: The main JavaScript framework used for building the user interface.
+- **Tailwind CSS**: For responsive styling and UI component design.
+- **Vercel**: The platform used for hosting the live project.
+- **Flowbite**: Used for UI components like date pickers and form inputs.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-# TestWork
+## Installation
+
+To run this project locally, follow the steps below:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/the1danie/TestWork.git
+    ```
+
+2. Navigate into the project directory:
+    ```bash
+    cd TestWork
+    ```
+
+3. Install the required dependencies:
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+    ```bash
+    npm run dev
+    ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the project in action.
+
+## Screenshots
+
+Here are a few screenshots to showcase the project:
+
+![Project Screenshot](path/to/screenshot.png)
+
+## Contributing
+
+Feel free to fork this project, create a branch, and make improvements. If you'd like to contribute, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-name`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add feature'`).
+5. Push to the branch (`git push origin feature-name`).
+6. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
