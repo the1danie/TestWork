@@ -24,7 +24,6 @@ This is a test project designed for a startup to showcase the front-end design u
 - **React**: The main JavaScript framework used for building the user interface.
 - **Tailwind CSS**: For responsive styling and UI component design.
 - **Vercel**: The platform used for hosting the live project.
-- **Flowbite**: Used for UI components like date pickers and form inputs.
 
 ## Installation
 
@@ -52,11 +51,6 @@ To run this project locally, follow the steps below:
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the project in action.
 
-## Screenshots
-
-Here are a few screenshots to showcase the project:
-
-![Project Screenshot](path/to/screenshot.png)
 
 ## Contributing
 
