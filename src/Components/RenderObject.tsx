@@ -9,7 +9,7 @@ import dots from "../assets/mage_dots.svg";
 export default function RenderObject() {
     return (
         <div
-            className=" h-48 mt-4 rounded-sm bg-gray-50 dark:bg-black p-4 border border-gray-300 dark:border-[#292524]">
+            className=" h-48 mt-4 rounded-sm bg-gray-50 dark:bg-black border xl:p-1 2xl:p-4 border-gray-300 dark:border-[#292524]">
             <div className="flex flex-row justify-between items-start mt-2 w-full">
                 <MdDone className="text-white text-2xl mr-2 mt-2"/>
                 <img src={avatar} alt="Avatar" className="w-10 h-10"/>

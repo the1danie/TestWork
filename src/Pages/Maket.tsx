@@ -11,7 +11,7 @@ import Tags from "../Components/Tags.tsx";
 
 const Maket = () => {
     useEffect(() => {
-        const handleKeyDown = (event) => {
+        const handleKeyDown = (event: KeyboardEvent) => { // Указываем тип события как KeyboardEvent
             if ((event.metaKey || event.ctrlKey) && event.key === "k") {
                 event.preventDefault(); // Предотвращаем стандартное действие браузера
                 document.getElementById("default-search")?.focus();
